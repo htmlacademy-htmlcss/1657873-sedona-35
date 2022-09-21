@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Katerina POLATOVA](https://up.htmlacademy.ru/htmlcss/35/user/1657873).
-* Наставник: `Неизвестно`.
+* Студент: [Katerina Polatova](https://up.htmlacademy.ru/htmlcss/35/user/1657873).
+* Наставник: [Татьяна Симоненко](https://htmlacademy.ru/profile/tatien)
 
 ---
 
