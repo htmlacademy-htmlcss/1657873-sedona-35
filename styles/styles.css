@@ -97,6 +97,29 @@ body {
   margin-right: 20px;
 }
 
+.navigation-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.count-favorite {
+  position: absolute;
+  background-color: #7DB54F;
+  width: 20px;
+  height: 20px;
+  left: 20px;
+  top: 11px;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 10px;
+  line-height: 20px;
+  text-align: center;
+}
+
 .navigation-link-favorite,
 .navigation-link-search {
   padding: 22px 12px;
@@ -340,6 +363,12 @@ body {
 
 .brown-button {
   background-color: #756157;
+}
+
+.transparent-button {
+  width: 191px;
+  height: 36px;
+  background-color: transparent;
 }
 
 .subscribe {
@@ -628,6 +657,12 @@ body {
   flex-direction: column;
 }
 
+.filter-button {
+  width: 191px;
+  height: 36px;
+  margin-bottom: 31px;
+}
+
 .sorting-hotels {
   max-width: 1060px;
   margin: 0 auto;
@@ -737,7 +772,71 @@ body {
   font-weight: 700;
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
+.hotel-card-price {
+  justify-self: end;
+}
+
+.card-button  {
+  width: 140px;
+  height: 36px;
+}
+
+.card-button-about {
+  padding: 8px 26px;
+  box-sizing: border-box;
+}
+
+.rating-star {
+  background-image: url(../images/star.svg);
+}
+
+.hotel-rating {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 9px 22px 8px 23px;
+  background-color: #F2F2F2;
+  color: #000000;
+}
+
+.hotel-card-link {
+  grid-column: 1 / -1;
+  text-decoration: none;
+  color: #000000;
+}
+
+.pagination-link {
+  width: 60px;
+  height: 60px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #82B3D3;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.pagination-current {
+  background-color: #F2F2F2;
+  color: #000000;
+}
+
+.subscribe-title {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 0;
+}
 
 
