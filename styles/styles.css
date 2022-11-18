@@ -1192,25 +1192,20 @@ body {
   opacity: 0.3;
 }
 
-.control:hover .control-label {
-  color: rgba(255, 255, 255, 0.6);
+.control-input:focus + .control-mark,
+.control-input-radio:focus + .control-mark {
+  outline: 3px solid #83b3d3;
 }
 
-.control:active .control-label {
-  color: rgba(255, 255, 255, 0.3);
-}
-
-.control:focus .control-mark {
-  outline: 3px solid #83B3D3;
-}
-
-.control-input:disabled ~ .control-mark {
+.control-input:disabled + .control-mark,
+.control-input-radio:disabled + .contrl-mark {
   border-color: #242424;
 }
 
 input:disabled ~ span {
   opacity: 0.3;;
 }
+
 
 .control-input[type="checkbox"]:checked ~ .control-mark::before {
   position: absolute;
@@ -1449,10 +1444,14 @@ input:focus + span {
   border: none;
   font-family: 'PT Sans', sans-serif;
   font-weight: 700;
+  -webkit-appearance: textfield;
+  appearance: textfield;
 }
+
 
 .catalog-filter-value::-webkit-outer-spin-button,
 .catalog-filter-value::-webkit-inner-spin-button {
+  -webkit-appearance: none;
   appearance: none;
   margin: 0;
 }
